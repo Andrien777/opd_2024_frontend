@@ -1,0 +1,83 @@
+.popupContainer {
+    width: 75vw;
+    position: absolute;
+    background-color: #ffffff;
+    z-index: 100;
+    border: 5px solid #AC6666;
+    left: 10vw;
+    top: 1vw;
+    border-radius: 25px;
+
+}
+
+.backdrop {
+    transition: opacity .25s;
+
+    opacity: 1;
+    position: fixed;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    backdrop-filter: saturate(70%) blur(10px);
+}
+
+.cell1 {
+    margin: 10px 0 0 0;
+    padding-left: 20px;
+    background-color: white;
+    color: #630000;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.cell2 {
+    min-height: 39px;
+    border: 3px solid #F5CCCC;
+    padding: 3px 10px 3px 10px;
+    margin: 1.5% 0 0 0;
+    border-radius: 7px;
+    height: 20%;
+    font-size: 2em;
+    width: 70%;
+}
+
+.inp {
+    margin: 10px 0 0 0;
+    padding: 5px 10px 5px 10px;
+    border: 3px solid #AC6666;
+    border-radius: 7px;
+    height: 35px;
+    width: 70%;
+    font-size: 2em;
+    outline: none;
+}
+
+.data {
+    width: 80%;
+    margin: 0 14%;
+}
+
+.cell {
+    background-color: #AC6666;
+    border-radius: 7px;
+}
+
+.hiddenDiv {
+    transition: opacity 1s;
+    height: 0px;
+    width: 0px;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.controlButton {
+    margin-left: 90%;
+    /* margin-left: 25px; */
+    margin-top: 10px;
+    border: 4px solid rgb(177, 128, 128);
+    background-color: white;
+    color: black;
+    height: 50px;
+    width: 10em;
+    border-radius: 25px;
+}

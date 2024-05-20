@@ -1,0 +1,51 @@
+body {
+    margin: 0
+}
+
+.header {
+    background-color: #CC0000;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoutButton {
+    font-size: 2em;
+    border: 4px solid #843636;
+    background-color: #CC0000;
+    color: black;
+    height: 77px;
+    width: 206px;
+    border-radius: 25px;
+    position: sticky;
+    right: 0rem;
+    margin-left: auto;
+    margin-right: 25px;
+}
+
+.userProfileContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+}
+
+.username {
+    font-size: 3em;
+    padding: 25px;
+}
+
+.profileIconContainer {
+    margin-left: 5%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #FFBEBE;
+    border: 4px solid #843636;
+    border-radius: 15px;
+}

@@ -1,0 +1,52 @@
+.loginParent {
+    align-content: center;
+    text-align: center;
+}
+
+.err {
+    font-size: 2em;
+    justify-content: center;
+    align-content: center;
+    color: #ff5555;
+    text-align: center;
+}
+
+.main {
+    font-size: 4em;
+    justify-content: center;
+    align-content: center;
+    color: #AC6666;
+    text-align: center;
+    margin-bottom: 7%;
+}
+
+.container {
+    font-size: 2em;
+    align-content: center;
+    justify-content: center;
+}
+
+.loginTextInput {
+    margin: 20px 10% 10px;
+    padding: 5px 10px 5px 10px;
+    border: 3px solid #AC6666;
+    border-radius: 7px;
+    height: 35px;
+    width: 78.5%;
+    font-size: 1em;
+    outline: none;
+    align-items: center;
+}
+
+.submitButton {
+    font-size: 1em;
+    background-color: #F5CCCC;
+    color: #AC6666;
+    height: 50px;
+    width: 80%;
+    margin: 20px 10% 10px;
+    border: none;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
